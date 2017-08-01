@@ -1,4 +1,5 @@
 from django.contrib import admin
+from django.utils.translation import ugettext_lazy
 
 # Register your models here.
 from .models import Client
@@ -10,3 +11,5 @@ class ClientAdmin(admin.ModelAdmin):
     
 
 admin.site.register(Client, ClientAdmin)
+
+admin.site.site_header = 'Ntapane Administration'
