@@ -13,3 +13,5 @@ class ClientAdmin(admin.ModelAdmin):
 admin.site.register(Client, ClientAdmin)
 
 admin.site.site_header = 'Ntapane Administration'
+
+admin.site.site_title = 'Ntapane Administration'
