@@ -15,7 +15,7 @@ class Client(models.Model):
 	Premium = models.DecimalField(max_digits=8, default=00.00, decimal_places=2)
 	Policy_Chooses = (
 		('Investment', 'investment'), 
-		('plan', 'plan'),
+		('retirement', 'retirement'),
 		('funeral cover', 'funeral cover'),
 
 	)	
